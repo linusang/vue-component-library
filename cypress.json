@@ -1,0 +1,5 @@
+{
+  "testFiles": "**/*.uispec.ts",
+  "componentFolder": "src",
+  "video": false
+}
