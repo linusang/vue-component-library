@@ -23,7 +23,8 @@
     "prettier": "npx prettier --write .",
     "lint": "eslint --ext .ts,vue --ignore-path .gitignore .",
     "vitest": "vitest run",
-    "vitest:watch": "vitest"
+    "vitest:watch": "vitest",
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
   },
   "dependencies": {
     "vue": "^3.2.33"
